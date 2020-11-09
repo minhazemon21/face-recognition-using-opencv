@@ -113,7 +113,7 @@ while True:
 
 
     cv2.imshow("Frame", frame)
-    cv2.imshow("New frame", new_frame)
+    #cv2.imshow("New frame", new_frame)
 
     key = cv2.waitKey(1)
     if key == 27:
